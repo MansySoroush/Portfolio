@@ -1,0 +1,42 @@
+/* skills.css */
+
+.light-background {
+    background-color: #f3c1c1;
+}
+
+.custom-text-center {
+    text-align: center;
+    align-items: center;
+}
+
+.skill-header-logo {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.skill-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.skill-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.skill-card .card-header {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: #CA8787;
+    color: white;
+}
+
+.skill-card .list-group-item {
+    display: flex;
+    align-items: center;
+    background-color: #f3c1c1;
+}

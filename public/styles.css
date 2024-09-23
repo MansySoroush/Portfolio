@@ -1,0 +1,203 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ff0073, #8d6666, #CA8787, #f3c1c1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+section {
+  display: block;
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+#Navbar {
+  background-color: #CA8787;
+}
+
+.hd-showcase {
+  color: #4b0d0d;
+}
+
+.carousel, .carousel-item {
+  background-color: #f3c1c1; 
+  height: 600px;
+}
+
+.img-showcase {
+  width: 700px;
+  height: 400px;
+}
+
+.img-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.bd-placeholder-img {
+  fill: #f3c1c1; 
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.sedan-regular-no-weight {
+  font-family: "Sedan", serif;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.sedan-regular-italic-no-weight {
+  font-family: "Sedan", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../Images/Icons/next-icon.png');
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../Images/Icons/prev-icon.png');
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: brown;
+}
+
+.virtual-media-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.light_background {
+  background-color: #f3c1c1; 
+}
+
+.custom-text-center {
+  text-align: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: #4b0d0d;
+  margin-bottom: 5px;
+  align-self: center;
+}
+
+.pdf-container {
+  height: 1000px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category ul li {
+  margin-bottom: 5px;
+}
+
+.skill-header-logo {
+  width: 45px;
+  height: 45px;
+}
+
+.skill-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.about_me_info {
+  background-color: #dea9a9;
+}
+
+
+.footer-social-links li {
+  margin-left: 0.5rem;
+  margin-right: 0;
+}
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer {
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 860px) {
+  .carousel, .carousel-item {
+    background-color: #f3c1c1; 
+    height: 500px;
+  }
+  
+  .img-showcase {
+    width: 600px;
+    height: 300px;
+  }
+}
+
